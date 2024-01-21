@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bg img {
+    position: fixed;
+    margin-left: -5px;
+    margin-right: -180px;
+    width: 2160px;
+    height: 800px;
+    display: inline-flex;
+    padding-bottom: 0px;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.container {
+    width: 1440px;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+
+    padding: 18px 10.5px 0 11.5px;
+    /* Padding values */
+    width: 610px;
+    height: 36px;
+    top: 24px;
+    left: 482px;
+    position: absolute;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 36px;
+    /* Gap between li elements */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #1443BD;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.0015em;
+    text-align: left;
+    width: 61px;
+    height: 28px;
+}
+
+
+.frame07 {
+    display: flex;
+    position: relative;
+    margin-top: 140px;
+    margin-right: 888px;
+    margin-left: 100px;
+}
+
+.frame07 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #1443BD;
+}
+
+.buttons {
+    display: inline-grid;
+    position: absolute;
+    margin-top: 190px;
+    padding: 10px;
+}
+
+.btn1 {
+    cursor: pointer;
+    margin-left: -9px;
+    margin-bottom: 50px;
+    height: 40px;
+    width: 190px;
+    border-radius: 8px;
+    background-color: #1443BD;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    word-spacing: 3px;
+}
+
+.btn2 {
+    cursor: pointer;
+    margin-left: -9px;
+    margin-bottom: 40px;
+    height: 40px;
+    width: 190px;
+    border-radius: 8px;
+    background-color: #1443BD;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    word-spacing: 3px;
+}
+
+.banner {
+    /* width: 30px;
+    height: 30px; */
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+#banImg {
+    max-height: 60%;
+    width: auto;
+    left: 850px;    
+}
