@@ -10,4 +10,10 @@ def dashboard():
 def login():
     return render_template('login.html')
 
+
+@app.route("/counsellor")
+def counsellor():
+    return render_template('counsellor.html')
+
+
 app.run(debug=True)
