@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hero {
+    display: flex;
+    height: 100vh;
+    /* Set the height to the full viewport height */
+}
+
+.con_1 {
+    flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form1{
+    margin-left: -300px;
+    margin-bottom: -280px;
+}
+h2 {
+    width: 301px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #1A1A1A;
+    font-family: "Poppins";
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.username {
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.pass {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #6373A4;
+    box-shadow: 0px 4px 30px 0px rgba(38, 58, 67, 0.15);
+}
+
+.con_2 {
+    flex: 0 0 40%;
+    /* Flex property to take 30% of the available space */
+    background-color: #6373A4;
+    /* Add background color for better visualization */
+}
+
+.rectangle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 200px;
+    /* Set a maximum width for the image */
+    width: auto;
+    /* Maintain the aspect ratio */
+    height: auto;
+}
+
+.rectangle2 {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    max-width: 200px;
+    /* Set a maximum width for the image */
+    width: auto;
+    /* Maintain the aspect ratio */
+    height: auto;
+}
+
+.conImg2 {
+    max-width: 100%;
+    max-height: 100%;
+    width: 430px;
+    height: 350px;
+    display: block;
+    /* margin: 125px; */
+    margin-top: 228px;
+    margin-bottom: 322px;
+    margin-left: 97px;
+}

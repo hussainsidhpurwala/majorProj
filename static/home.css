@@ -26,8 +26,9 @@ body {
 }
 
 .navbar {
-
-    padding: 18px 10.5px 0 11.5px;
+    background-color: rgb(159, 159, 254);
+    padding: 18px 4.5px 14px 4.5px;
+    border-radius: 25px;
     /* Padding values */
     width: 610px;
     height: 36px;
@@ -88,9 +89,12 @@ li {
     cursor: pointer;
     margin-left: -9px;
     margin-bottom: 50px;
+    padding-top: 10px;
     height: 40px;
-    width: 190px;
+    width: 250px;
     border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
     background-color: #1443BD;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
@@ -103,8 +107,10 @@ li {
     margin-left: -9px;
     margin-bottom: 40px;
     height: 40px;
-    width: 190px;
+    width: 250px;
+    padding-top: 10px;
     border-radius: 8px;
+    text-align: center;
     background-color: #1443BD;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
