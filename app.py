@@ -15,5 +15,9 @@ def login():
 def counsellor():
     return render_template('counsellor.html')
 
+@app.route("/newUser")
+def newUser():
+    return render_template('newUser.html')
+
 
 app.run(debug=True)

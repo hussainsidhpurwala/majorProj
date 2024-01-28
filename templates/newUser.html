@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/newUser.css">
+    <title>New User</title>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="left-hero">
+            <div class="rectangle-1"></div>
+            <div class="rectangle-2"></div>
+            <img class="object-other" src="/static/Other 07reg.png">
+        </div>
+        <div class="right-hero">
+            <div>
+                <h2 class="p">Please Fill out form to Register!</h2>
+                <form>
+                    <label class ="text-wrapper1" for="fullName">Full Name:</label>
+                    <input class ="text-Input1"type="text" id="fullName" name="fullName" required>
+
+                    <label class ="text-wrapper"for="age">Age:</label>
+                    <input class ="text-Input" type="number" id="age" name="age" required>
+
+                    <label class ="text-wrapper2" for="gender">Gender:</label>
+                    <select class ="text-Input2" id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label class ="text-wrapper3" for="phone">Phone No:</label>
+                    <input class ="text-Input3" type="tel" id="phone" name="phone" required>
+
+                    <label class ="text-wrapper4" for="email">Email:</label>
+                    <input class ="text-Input4" type="email" id="email" name="email" required>
+
+                    <label class ="text-wrapper5" for="password">Password:</label>
+                    <input  class ="text-Input5" type="password" id="password" name="password" required>
+
+                    <label class ="text-wrapper6" for="dob">Date Of Birth:</label>
+                    <input class ="text-Input6" type="date" id="dob" name="dob" required>
+
+                    <label class ="text-wrapper7" for="profilePicture">Profile Picture:</label>
+                    <input class ="text-Input7" type="file" id="profilePicture" name="profilePicture">
+
+                    <button class ="text-Input8" type="submit">Register</button>
+                </form>
+
+                <div class="have-account"><p class="span">Have an account? <a href="/login" class="text-wrapper-2">Login</a></p></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

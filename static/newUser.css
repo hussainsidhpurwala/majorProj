@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background: #EBEFFF; */
+}
+
+.hero {
+    background-color: #EBEFFF;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left-hero {
+    flex: 1;
+}
+
+.right-hero {
+    flex: 1;
+}
+
+.rectangle-1 {
+    position: fixed;
+    width: 580px;
+    height: 250px;
+    top: 20px;
+    left: 0;
+    background-color: #afb3ff;
+    border-radius: 105.53px;
+    transform: rotate(-105.17deg);
+    z-index: 1;
+    /* Set a z-index to position it below the image */
+}
+
+.rectangle-2 {
+    position: fixed;
+    width: 645px;
+    height: 298px;
+    top: 93px;
+    left: 0;
+    background-color: #6373a4;
+    border-radius: 105.53px;
+    transform: rotate(-90deg);
+    z-index: 1;
+    /* Set a z-index to position it below the image */
+}
+
+.object-other {
+    position: fixed;
+    width: 450px;
+    height: 440px;
+    top: 0;
+    left: 0;
+    /* object-fit: cover; */
+    z-index: 2;
+    /* Set a higher z-index to position it above the rectangles */
+    margin-top: 300px;
+    margin-left: 140px;
+}
+
+.text-wrapper{
+    position: absolute;
+    top: 203px;
+    left: 716px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-wrapper1{
+    position: absolute;
+    top: 158px;
+    left: 716px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-wrapper2{
+    position: absolute;
+    top: 248px;
+    left: 716px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-wrapper3{
+    position: absolute;
+    top: 293px;
+    left: 716px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-wrapper4{
+    position: absolute;
+    top: 338px;
+    left: 716px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-wrapper5{
+    position: absolute;
+    top: 383px;
+    left: 716px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-wrapper6{
+    position: absolute;
+    top: 428px;
+    left: 716px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-wrapper7{
+    position: absolute;
+    top: 473px;
+    left: 716px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-Input{
+    position: absolute;
+    width: 380px;
+    height: 30px;
+    top: 195px;
+    left: 855px;
+    border-radius: 15px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 200;
+    color: #000000;
+    background: #EBEFFF;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-Input1{
+    position: absolute;
+    width: 380px;
+    height: 30px;
+    top: 150px;
+    left: 855px;
+    border-radius: 15px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 200;
+    color: #000000;
+    background: #EBEFFF;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-Input2{
+    position: absolute;
+    width: 380px;
+    height: 30px;
+    top: 240px;
+    left: 855px;
+    border-radius: 15px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 200;
+    color: #000000;
+    background: #EBEFFF;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-Input3{
+    position: absolute;
+    width: 380px;
+    height: 30px;
+    top: 285px;
+    left: 855px;
+    border-radius: 15px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 200;
+    color: #000000;
+    background: #EBEFFF;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-Input4{
+    position: absolute;
+    width: 380px;
+    height: 30px;
+    top: 330px;
+    left: 855px;
+    border-radius: 15px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 200;
+    color: #000000;
+    background: #EBEFFF;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-Input5{
+    position: absolute;
+    width: 380px;
+    height: 30px;
+    top: 375px;
+    left: 855px;
+    border-radius: 15px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 200;
+    color: #000000;
+    background: #EBEFFF;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-Input6{
+    position: absolute;
+    width: 380px;
+    height: 30px;
+    top: 420px;
+    left: 855px;
+    border-radius: 15px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 200;
+    color: #000000;
+    background: #EBEFFF;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-Input7{
+    position: absolute;
+    width: 380px;
+    height: 30px;
+    top: 465px;
+    left: 855px;
+    /* border-radius: 15px; */
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 200;
+    color: #000000;
+    background: #EBEFFF;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-Input8{
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    top: 510px;
+    left: 855px;
+    border-radius: 15px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 200;
+    color: #000000;
+    background: #656ED3;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.p {
+    position: absolute;
+    top: 67px;
+    left: 827px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #191919;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+.span{
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 19px;
+    letter-spacing: 0;
+}
+.text-wrapper-2{
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 700;
+}
+.have-account{
+    position: absolute;
+    top: 560px;
+    left: 830px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
